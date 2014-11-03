@@ -44,6 +44,7 @@ apps=(
   mysqlworkbench
   robomongo
   filezilla
+  evernote
 )
 
 # What fonts to install
