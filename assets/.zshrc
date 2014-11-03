@@ -32,8 +32,8 @@ alias documents="$HOME/Documents"
 
 PROJECTS="$HOME/Projects"
 
-alias github="$PROJECTS/github"
-alias sandbox="$PROJECTS/sandbox"
+alias www="$PROJECTS/www"
+alias japi="$PROJECTS/www/japi.io"
 alias projects="$PROJECTS"
 
 # Dev Stuff
@@ -87,3 +87,5 @@ function gemdir {
     pwd
   fi
 }
+
+export PATH=/usr/local/php5/bin:$PATH

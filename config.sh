@@ -2,6 +2,7 @@
 
 # What binaries to install
 binaries=(
+  wget
   libyaml
   gsl
   git
