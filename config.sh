@@ -10,7 +10,7 @@ binaries=(
   node
   hub
   zsh
-  brew install vim --override-system-vi
+  vim --override-system-vi
 )
 
 # What apps to install
