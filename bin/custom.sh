@@ -25,7 +25,7 @@ cp -f "assets/Package Control.sublime-settings" "$ST3/User/Package Control.subli
 
 DOT="$HOME/.dotfiles"
 
-echo "Initializing .bash_aliases"
+echo "Initializing .bash_alias"
 cp -RfXv assets/.bash_aliases $HOME/.bash_aliases
 
 echo "Initializing .bash_profile"
