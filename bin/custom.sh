@@ -40,7 +40,7 @@ fi
 # Open Terminal Settings
 echo ""
 echo "Install Pongstr Base-16 Theme"
-open "assets/Pongstr Base-16.terminal"
+open "assets/silverbux.terminal"
 sleep 1 # Wait a bit to make sure the theme is loaded
 # Set Terminal Custom Theme
 echo ""
