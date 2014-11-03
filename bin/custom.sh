@@ -15,21 +15,21 @@ cp -f "assets/Preferences.sublime-settings" "$ST3/User/Preferences.sublime-setti
 echo ""
 echo "Install Sublime Text 3 Keymaps:"
 echo "Default (OSX).sublime-keymap"
-cp -f "$DOT/bin/subl/Default (OSX).sublime-keymap" "$ST3/User/Default (OSX).sublime-keymap"
+cp -f "assets/Default (OSX).sublime-keymap" "$ST3/User/Default (OSX).sublime-keymap"
 
 echo ""
 echo "Install Sublime Text 3 Packages:"
 echo "Package Control.sublime-settings"
-cp -f "$DOT/bin/subl/Package Control.sublime-settings" "$ST3/User/Package Control.sublime-settings"
+cp -f "assets/Package Control.sublime-settings" "$ST3/User/Package Control.sublime-settings"
 
 
 DOT="$HOME/.dotfiles"
 
 echo "Initializing .bash_aliases"
-cp -RfXv $DOT/bin/shell/.bash_aliases $HOME/.bash_aliases
+cp -RfXv assets/.bash_aliases $HOME/.bash_aliases
 
 echo "Initializing .bash_profile"
-cp -RfXv $DOT/bin/shell/.bash_profile $HOME/.bash_profile
+cp -RfXv assets/.bash_profile $HOME/.bash_profile
 
 # Install zsh & oh-my-zsh
     if [ ! -d "$HOME/.oh-my-zsh" ]; then
@@ -40,7 +40,7 @@ fi
 # Open Terminal Settings
 echo ""
 echo "Install Pongstr Base-16 Theme"
-open "$DOT/bin/shell/Pongstr Base-16.terminal"
+open "assets/Pongstr Base-16.terminal"
 sleep 1 # Wait a bit to make sure the theme is loaded
 # Set Terminal Custom Theme
 echo ""
@@ -50,5 +50,5 @@ defaults write com.apple.terminal "Startup Window Settings" -string "Pongstr Bas
 # Link .zshrc
 echo ""
 echo "Install Pongstr zsh-theme"
-cp -RfXv "$DOT/bin/shell/Pongstr Base-16.zsh-theme" "$HOME/.oh-my-zsh/themes/pongstr.zsh-theme"
-cp -RfXv "$DOT/bin/shell/.zshrc" "$HOME/.zshrc" && source $HOME/.zshrc
+cp -RfXv "assets/Pongstr Base-16.zsh-theme" "$HOME/.oh-my-zsh/themes/pongstr.zsh-theme"
+cp -RfXv "assets/.zshrc" "$HOME/.zshrc" && source $HOME/.zshrc
