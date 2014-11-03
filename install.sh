@@ -13,3 +13,9 @@ source bin/defaults.sh
 source bin/binaries.sh
 source bin/apps.sh
 source bin/profile.sh
+
+# ----------------------------------
+# APPS TO INSTALL MANUALLY
+# ----------------------------------
+# Ammps
+# Feedly

@@ -41,6 +41,9 @@ apps=(
   ccleaner
   sequel-pro
   haroopad
+  mysqlworkbench
+  robomongo
+  filezilla
 )
 
 # What fonts to install
