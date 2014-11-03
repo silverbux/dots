@@ -6,7 +6,7 @@ xcode-select --install
 # Install Hushlogin
 echo ""
 echo "Install hushlogin"
-cp -f ".hushlogin" $HOME/.hushlogin
+cp -f "bin/.hushlogin" $HOME/.hushlogin
 
 source config.sh
 source bin/defaults.sh
