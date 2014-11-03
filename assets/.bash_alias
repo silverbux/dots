@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+# bash_aliases
+
+# Home Folders
+alias home="cd ~ && clear"
+alias apps="cd /Applications/"
+alias music="cd $HOME/Music/"
+alias movies="cd $HOME/Movies/"
+alias dropbox="cd $HOME/Dropbox/"
+alias pictures="cd $HOME/Pictures/"
+alias documents="cd $HOME/Documents/"
+
+# Projects Directory
+alias projects="$HOME/Projects/"
+
+# Projects Directory
+alias japi="$HOME/www/japi.io"
+alias godevserver="ssh -i $HOME/projects/www/deployment_key.txt -l root 162.242.145.215"
