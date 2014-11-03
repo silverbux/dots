@@ -64,7 +64,7 @@ npmpackages=(
   jshint
   karma-cli
   less
-  meanio
+  mean-cli -g
   mongoose
   nodemon
 )
