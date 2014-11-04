@@ -6,8 +6,7 @@ my personal dotfiles, combination of codes/dotfiles that i like to put in my box
 # Installation
 
 ```bash```
-curl -O -L https://github.com/silverbux/dots/archive/master.tar.gz | tar zx --strip 1 && sh ./install.sh
-mkdir -p /tmp/dots && cd /tmp/dots && curl -L
+mkdir -p /tmp/dots && cd /tmp/dots && curl -O -L https://github.com/silverbux/dots/archive/master.tar.gz | tar zx --strip 1 && sh ./install.sh
 ```
 
 ### Credits & Sources
